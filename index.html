@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <title>Document</title>
+  </head>
+  <body>
+      <!-- bagiain atas -->
+    <div id="containerfluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <div class="headerbox border border-3 border-dark m-3 bg-warning">
+              <p class="text-center m-3 fs-2 fw-bolder">KALKULATOR</p>
+            </div>
+          </div>
+        </div>
+        <!-- bagian tengah -->
+        <div class="row text-center">
+          <div class="col-md-6 offset-md-3">
+            <div class="headerbox border border-3 border-dark m-3" style="height: 400px">
+                 <div class="row">
+                    <div class="col-md-5">
+                        <div class="box m-2">
+                            <input type="number" id="input1" style="padding-bottom: 30px; font-size: 15px;" />
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="box mt-2 fw-bold fs-2">+</div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="box m-2">
+                            <input type="number" id="input2" style="padding-bottom: 30px; font-size: 15px;"/>
+                        </div>
+                    </div>
+                 </div>
+                 <br>
+                 <div class="row">
+                     <div class="col-md-12">
+                         <div class="box">
+                             <button onclick="fhasil()">
+                                 hasil
+                             </button>
+                         </div>
+                     </div>
+                 </div>
+                 <br>
+                 <div class="row">
+                     <div class="col-md-12">
+                         <div class="box">
+                             <input type="text" id="hasil" style="height: 120px;">
+                         </div>
+                     </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <!-- bagian bawah -->
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                  <div class="headerbox border border-3 border-dark m-3 bg-warning">
+                    <p class="text-center m-3 fs-2 fw-bolder ">PASTI BISA</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+  </body>
+</html>
